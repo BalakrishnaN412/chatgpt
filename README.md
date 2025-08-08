@@ -15,6 +15,8 @@ Both modules are placeholders for future development.
 - Basic user list and creation form in the React frontend interacting with the `User` API.
 - Simple login page posting to a backend `/api/auth/login` endpoint.
 - Category list and creation form interacting with the `Category` API.
+- Question list and creation form interacting with the `Question` API.
+- Exam list and creation form interacting with the `Exam` API.
 
 
 ### Pages to Develop
