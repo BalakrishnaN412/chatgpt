@@ -2,12 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import LandingPage from './pages/Landing';
 import PricingPage from './pages/Pricing';
+
 import LoginPage from './pages/Login';
 import UsersPage from './pages/Users';
 import CategoriesPage from './pages/Categories';
 import QuestionsPage from './pages/Questions';
 import ExamsPage from './pages/Exams';
 import './App.css';
+
 
 const App: React.FC = () => {
   return (
