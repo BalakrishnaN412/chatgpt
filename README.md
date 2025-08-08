@@ -6,7 +6,6 @@ This repository contains a minimal skeleton for the QuizMaster Pro platform.
   PostgreSQL-backed `User` API.
 - `frontend` - React + TypeScript application with a basic entry point and a
   form to add and list users.
-
 Both modules are placeholders for future development.
 
 ## Development Status
