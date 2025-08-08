@@ -1,25 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-        
 import React, { useEffect, useState } from 'react';
-import LoginPage from './pages/Login';
-import UsersPage from './pages/Users';
-
-const App: React.FC = () => {
-  return (
-    <Router>
-      <nav>
-        <Link to="/login">Login</Link> |{' '}
-        <Link to="/users">Users</Link>
-      </nav>
-      <Routes>
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/users" element={<UsersPage />} />
-      </Routes>
-    </Router>
-  );
-};
-
 
 interface User {
   id: number;
@@ -27,7 +6,7 @@ interface User {
   email: string;
 }
 
-function App() {
+const UsersPage: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -69,7 +48,6 @@ function App() {
       </ul>
     </div>
   );
-}
+};
 
-
-export default App;
+export default UsersPage;

@@ -12,6 +12,7 @@ Both modules are placeholders for future development.
 
 ### Completed Pages
 - Basic user list and creation form in the React frontend interacting with the `User` API.
+- Simple login page posting to a backend `/api/auth/login` endpoint.
 
 ### Pages to Develop
 - Public: Landing, Authentication (login/register), Pricing.
