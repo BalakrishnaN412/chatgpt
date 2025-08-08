@@ -3,7 +3,7 @@
 This repository contains a minimal skeleton for the QuizMaster Pro platform.
 
 - `backend` - Spring Boot application with sample REST endpoints and simple
-  PostgreSQL-backed `User` and `Category` APIs.
+  in-memory H2-backed `User` and `Category` APIs.
 - `frontend` - React + TypeScript application with a basic entry point and forms
   to add and list users and categories.
 
