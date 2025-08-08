@@ -9,3 +9,4 @@ CREATE TABLE IF NOT EXISTS categories (
     name VARCHAR(100) NOT NULL,
     parent_id INTEGER REFERENCES categories(id)
 );
+

@@ -16,6 +16,7 @@ Both modules are placeholders for future development.
 - Simple login page posting to a backend `/api/auth/login` endpoint.
 - Category list and creation form interacting with the `Category` API.
 
+
 ### Pages to Develop
 - Public: Landing, Authentication (login/register), Pricing.
 - Admin: Dashboard, User Management, Category Management, Question Bank, Exam Creation, Results & Analytics.
