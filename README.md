@@ -17,10 +17,11 @@ Both modules are placeholders for future development.
 - Category list and creation form interacting with the `Category` API.
 - Question list and creation form interacting with the `Question` API.
 - Exam list and creation form interacting with the `Exam` API.
-
+- Landing page with a minimalist Apple-inspired hero section.
+- Pricing page showing sample subscription tiers.
 
 ### Pages to Develop
-- Public: Landing, Authentication (login/register), Pricing.
+- Public: Authentication (registration).
 - Admin: Dashboard, User Management, Category Management, Question Bank, Exam Creation, Results & Analytics.
 - User: Exam Portal, Exam Interface, Results page.
 
